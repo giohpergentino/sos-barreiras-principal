@@ -1,0 +1,131 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #fff;
+}
+
+.bg-secondary-color {
+  background-color: #f9f9f9;
+}
+
+.bg-tertiary-color {
+  background-color: #eff3cf;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.bg-yellow-color {
+  background-color: rgba(24, 160, 251, 1);
+}
+
+.primary-color {
+  color: #211d19;
+}
+
+.secondary-color {
+  color: rgba(24, 160, 251, 1);
+}
+
+.tertiary-color {
+  color: rgba(24, 160, 251, 1);
+}
+
+.quaternary-color {
+  color: #fffdfc;
+}
+
+.color-green {
+  color: #a3c777;
+}
+
+.btn-primary-local {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+/* Barrinha de Navegacao */
+
+#navbar {
+  box-shadow: inset 0px -10px 14px 3px rgba(24, 160, 251, 1);
+  box-shadow: 0px 4px 6px 2px rgb(19, 126, 197);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-items .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+}
+
+.btn-primary-local1:hover {
+  border-color: rgb(19, 126, 197);
+  color: rgb(19, 126, 197);
+  background-color: rgb(230, 230, 230);
+}
+
+.btn-primary-local2:hover {
+  border-color: #ffffff;
+  color: #f9f9f9;
+  background-color: rgb(19, 126, 197);
+}
+
+/* Cards Noticias */
+
+.btn-orange {
+  background-color: #ffffff;
+  border-color: rgb(19, 126, 197);
+}
+
+.btn-orange:hover {
+  background-color: rgb(19, 126, 197);
+  border-color: rgb(19, 126, 197)8;
+}
+
+.nav-link {
+  color: #FFF2E7;
+  font-size: 18px;
+}
+
+.titulo {
+  position: relative;
+  left: 20px;
+  top: 7px;
+  color: #FFF2E7;
+  font-size: 28px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.noticias{
+  position: relative;
+  left: 110px;
+}
